@@ -1,0 +1,94 @@
+.container{
+    background-color: rgba(255, 255, 255, 0.849);
+    border: 2px solid blue;
+    width: 400px;
+    height: 670px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 5px 20px 3px;
+}
+.signup-box input{
+    border-radius: 50px;
+    border: 1px solid rgb(146, 141, 141);
+    width: 375px;
+    height: 35px;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+.signup-box label{
+    font-size: 13px;
+    color: rgb(59, 60, 61);
+    font-family: initial;
+    }
+#button{
+    border-radius: 50px;
+    font-size: medium;
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 40px;
+    border: 0px solid transparent;
+}
+#button:hover{
+    color: rgb(208, 208, 240);
+    background-color: rgb(71, 69, 69);
+    cursor: pointer;
+}
+#below-signup-box p{
+    text-align: center;
+    cursor: default;
+}
+#below-signup-box p a{
+    color: rgb(65, 65, 243);
+    text-decoration: none;
+}
+#or h6{
+    font-size: medium;
+    color: #858383;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+#or h6 span{
+    background: rgb(255, 255, 255);
+    padding: 0 10px;
+}
+#back{
+    padding-left: 10px;
+}
+#back a{
+    color: rgb(65, 65, 243);
+    text-decoration: none;
+}
+#heading{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.google_link{
+    display: block;
+    text-decoration: none;
+    /* margin-left: 105px; */
+    margin: 0 auto;
+    color: black;
+    border: 1px solid rgba(207, 203, 203, 0.507);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 148px;
+    height: 30px;
+    padding: 5px 5px 0px;
+}
+.google_link img{
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+.google_link h6{
+    font-size: 14px;
+    padding-left: 27px;
+    font-weight: 10;
+    margin-top: 5px;
+}
+
