@@ -2,8 +2,8 @@
     background-color: rgba(255, 255, 255, 0.849);
     border: 2px solid blue;
     width: 400px;
-    height: 670px;
-    margin: 30px auto;
+    height: 700px;
+    margin: 10px auto;
     border-radius: 10px;
     padding: 5px 20px 3px;
 }
@@ -11,7 +11,7 @@
     border-radius: 50px;
     border: 1px solid rgb(146, 141, 141);
     width: 375px;
-    height: 35px;
+    height: 40px;
     padding-left: 20px;
     margin: 10px auto;
 }
@@ -24,14 +24,14 @@
     border-radius: 50px;
     font-size: medium;
     color: white;
-    background-color: blue;
+    background-color: rgb(75, 75, 240);
     width: 400px;
     height: 40px;
     border: 0px solid transparent;
 }
 #button:hover{
-    color: rgb(208, 208, 240);
-    background-color: rgb(71, 69, 69);
+    color: rgb(253, 253, 253);
+    background-color: rgb(85, 15, 15);
     cursor: pointer;
 }
 #below-signup-box p{
@@ -42,15 +42,18 @@
     color: rgb(65, 65, 243);
     text-decoration: none;
 }
+#below-signup-box p a:hover{
+    color: rgb(136, 4, 4);
+}
 #or h6{
     font-size: medium;
     color: #858383;
     font-weight: lighter;
-    width: 100%;
+    width: 80%;
     text-align: center;
     border-bottom: 1px solid #000;
     line-height: 0.1em;
-    margin: 10px 0 20px;
+    margin: 10px auto 20px;
 }
 #or h6 span{
     background: rgb(255, 255, 255);
@@ -58,10 +61,14 @@
 }
 #back{
     padding-left: 10px;
+    font-weight: lighter;
 }
 #back a{
     color: rgb(65, 65, 243);
     text-decoration: none;
+}
+#back a:hover{
+    color: rgb(143, 6, 6);
 }
 #heading{
     font-size: 26px;
@@ -91,4 +98,6 @@
     font-weight: 10;
     margin-top: 5px;
 }
-
+.google_link h6:hover{
+    color: rgb(143, 6, 6);
+}
